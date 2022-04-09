@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ver libro</title>
+</head>
+<body>
+<div class="container">
+<h1>Detalles del libro</h1>
+<div>ISBN: {{libro.isbn}}</div>
+<div>Título del libro: {{libro.nombre}}</div>
+<div>Autor: {{libro.autor}}</div>
+<div>Año de publicación: {{libro.year}}</div>
+<br>
+<a href="{{url_for('index')}}">Regresar al inicio </a>
+</div>
+</body>
+</html>
